@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather';
+}
+h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #2d303c;
+}
+h3{
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #2d303c;
+}
+h2{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color:#2d303c ;
+}
+h4{
+    font-size: 2  0.06rem;
+ 
+    color:#2d303c ;
+}
+h6{
+    font-size: 45rem;
+    line-height: 0.8rem;
+    color:#2d303c ;
+}
+p{
+    font-size: 1rem;
+    color: #465b52;
+    margin: 0.9rem 0 1.3rem 0;
+}
+.section-p1{
+    padding: 3rem 5rem;
+}
+.section-m1{
+    margin: 3rem 0;
+}
+body{
+    width: 100%;
+}
+/*Header start*/
+
+#header {
+    display: flex;
+    align-items: center;/* to align all the header pages*/
+    justify-content: space-between;
+    padding:/*from top and bottom 20px*/20px /*and from left and right*/ 80px;/*to put all header pages one beside another*/
+    background:  #2d303c;
+    box-shadow: 0 0.3rem 0.9rem rgba( /*red, green,blue,alpha*/ 0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    /*to remove the blue dot*/
+    list-style: none;
+    padding: 0 1.3rem;
+    position:relative;
+  
+}
+#navbar li a{
+    /*to remove the underline*/
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color:#d9836e;  
+    /*to add smooth transition hover to text */
+    transition:0.3s ease ;
+}
+#navbar li a:hover,
+#navbar li a.active/*to highlight hover add active class in html page*/
+{
+    /*to add hover when we click the header text */
+    color:#efc1b5;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+    content:"";
+    width: 30%;
+    height:0.13rem;
+    background:#efc1b5;
+    position:absolute;
+    bottom: -0.3rem;
+    left: 1.3rem;
+}
+/*Home page*/
+#headerimage{
+    background-image: url("img/bg4.jpg");
+     /*to add full size background image */
+     height: 100vh;
+     width: 100%;
+     /*to align image*/
+     background-size: cover;
+     background-position: top 25% right 0;
+     padding: 0 90px;
+     display:flex;
+     flex-direction: column;
+     align-items: flex-end;
+     justify-content: center;
+    
+   
+}
+/*#headerimage h2{
+    padding-bottom: 15px;
+}*/
+#headerimage h1{
+    padding-left: 0.6rem;
+   font-size: 5rem;
+   color: #2d303c;
+   text-align: center;
+}
+#headerimage h2{
+    padding-right: 0.6rem;
+    font-size: 4rem;
+    color: #ae6049;
+    text-align: center;
+ }
+#headerimage button{
+    background-color: #2d303c;
+    border: none;
+    color: #d9836e;
+    padding: 0.9rem 5rem 0.9rem 4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    justify-content: center;
+    margin: 0.3rem 0.15rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+}
+ .container{
+    position:relative;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:5rem 5rem 5rem 15rem;
+    background: #f2f2f2;
+    flex-wrap:wrap ;
+ }
+ .container .column {
+    flex:10rem;
+ }
+ .container .column .text h1{
+    color:#2d303c;
+ }
+ .container .column .text h3{
+    color: #ed8372;
+ }
+ .container .column .text p{
+    color: #525252;
+    font-size: 20px;
+ }
+ .container .column .text button{
+    background-color: #2d303c;
+    border: none;
+    color: #d9836e;
+    padding: 0.9rem 5rem 0.9rem 4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    justify-content: center;
+    margin: 0.3rem 0.15rem;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+ }
+ 
+ .container .column .image{
+    margin-left: 5rem;
+    width:20rem;
+    height:20rem;
+    border-radius: 4rem;
+    vertical-align: right;
+  
+ }
+ .feature{
+    position:relative;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:5rem 5rem 5rem 15rem;
+    background: #f2f2f2;
+    flex-wrap:wrap ;
+ }
+ .feature .image{
+    width: 50%;
+    height: 50%;
+ }
+
