@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">Nutri-Licious </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Diet Plan</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Eat Healthy<br><span>All Week Long</span></h3>
+        <p>Healthy eating is a way of life, so it’s important to establish routines that are simple, realistically, and ultimately livable.</p>
+        <a href="#" class="btn">Start Meal Planning</a>
+    </div>
+
+</section>
+
+
+<section class="recipes" id="recipes">
+    <h1 class="heading"> Healthy <span>Recipes</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="img/r1.png" alt="">
+            <h3>Chickpea Salad with Smashed Cucumbers</h3>
+            <p>This crunchy, fresh, protein-packed salad definitely deserves a spot on your family's dinner menu. It also keeps well in the refrigerator, so it's a perfect make-ahead meal.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="img/r2.png" alt="">
+            <h3>Zucchini Linguine</h3>
+            <p>Pasta is a go-to vegetarian dish, for obvious reasons. This cozy dish packs in plenty of veggies, thanks to the shredded zucchini and microgreens.     Fresh, fluffy parmesan is the finishing touch.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="img/r3.png" alt="">
+            <h3>Coconutty Rice and Peas</h3>
+            <p>Lucky you! This meal is rich, comforting and a complete protein. Over high heat in a heavy-bottomed stock pot, combine and stir all the ingredients. Bring to a boil uncovered .
+            </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+</section>
+
+
+<section id="banner" class="banner">
+    <h3> Customized<span> Healthy Meals     </a></span></h3><br>
+    <p  >Use our Meal Planning tool to add recipes to your weekly meal plan.  It's<br> as simple as drag and drop (or select and place on mobile). You can add<br> as many recipes as you want and keep track of your daily calorie intake.</p>
+    
+</section>
+
+<section class="indianrecipes" id="indianrecipes">
+
+    <h1 class="heading"> Healthy <span> Indian Recipes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/ir1.png" alt="">
+            <h3>Chickpea & Potato Curry</h3>
+            <p>This fast Indian-style curry comes together with ingredients you most likely have on hand, like frozen peas and canned tomatoes and chickpeas.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="img/ir2.png" alt="">
+            <h3>Red Lentil & Cauliflower Curry</h3>
+            <p>This cauliflower curry recipe also features red lentils, which turn yellow when cooked. Curry powder, onions, cumin and other seasonings give this vegetarian dinner tons of flavor. Serve over rice to complete the meal.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="img/ir3.png" alt="">
+            <h3>Thai Coconut Curry Soup</h3>
+            <p>This healthy version of tom kha soup is vegetarian and flavored with Thai red curry paste. Instead of using fish sauce, we simmer dried shiitakes in vegetable broth to add an umami note.
+            </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</section>
+<div class="weekheading">
+    <h3 >Healthy Week Planning</h3>
+</div>
+<div class="weekplan">
+    
+    <figure class="monday">
+      <figcaption>Monday</figcaption>
+      <img src="img/f1.png">
+    </figure>
+  
+    <figure class="tuesday">
+      <figcaption>Tuesday</figcaption>
+      <img src="img/f2.png">
+    </figure>
+  
+    <figure class="wednesday">
+      <figcaption>Wednesday</figcaption>
+      <img src="img/f6.png">
+    </figure>
+
+    <figure class="thursday">
+        <figcaption>Thursday</figcaption>
+        <img src="img/f3.png">
+      </figure>
+
+      <figure class="friday">
+        <figcaption>Friday</figcaption>
+        <img src="img/f5.png">
+      </figure>
+
+      <figure class="saturday">
+        <figcaption>Saturday</figcaption>
+        <img src="img/f4.png">
+      </figure>
+
+      <figure class="sunday">
+        <figcaption>Sunday</figcaption>
+        <img src="img/f7.png">
+      </figure>
+  </div>
+
+<div class="imgbanner">
+  <div class="imagebox">
+    <img src="img/b1.png" width="100%" height="auto" />
+    
+    </div>
+    <div class="textbox">
+    
+      <h3>A healthy diet is essential for good health and nutrition.<br></h3>
+      <p><br>It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.</p>
+      <p><br>A healthy diet comprises a combination of different foods. These include:</p>
+      <p><br>1. Staples like cereals (wheat, barley, rye, maize or rice) or starchy tubers or roots (potato, yam, taro or cassava).<br>
+        2. Legumes (lentils and beans).<br>
+        3. Fruit and vegetables.<br>
+        4. Foods from animal sources (meat, fish, eggs and milk).<br></p>
+      
+    
+    </div>
+  
+</div>
+
+<div class="slideshow-container">
+    
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <a href="#Recipes" ><img  src="img/s2.png" style="width:100%"></a>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <a href="#Recipes" ><img src="img/s3.png" style="width:100%"></a>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <a href="#Recipes" ><img  src="img/s4.png" style="width:100%"></a>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <a href="#Recipes" > <img src="img/s1.png" style="width:100%"></a>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+</div>
+<br>
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<div class="space">
+    <h1> </h1>
+</div>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Nutri-Licious </h3>
+            
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> chinmayee@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400028 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>Chinmayee Deshmukh</span> </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
